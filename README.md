@@ -4,7 +4,7 @@ A beautiful and performant status bar animation demo built with Expo and React N
 
 ## Demo
 
-![Example Animation](assets/example/example.gif)
+<img src="assets/example/example.gif" width="300" alt="Example Animation" />
 
 ## Features
 
