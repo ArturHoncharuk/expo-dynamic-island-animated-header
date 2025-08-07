@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# Expo Status Bar Animation 🎨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautiful and performant status bar animation demo built with Expo and React Native. This project showcases a dynamic island-inspired animation using Skia for high-performance graphics and Reanimated for smooth animations.
 
-## Get started
+## Demo
 
-1. Install dependencies
+![Example Animation](assets/example/example.gif)
+
+## Features
+
+- 🎯 Dynamic Island-style animations
+- 🖼️ Smooth image transitions with blur effects
+- 🔄 Scroll-based interactive animations
+- ⚡ High-performance rendering with Skia
+- 📱 Cross-platform compatibility (iOS & Android)
+
+## Tech Stack
+
+- [Expo](https://expo.dev)
+- [@shopify/react-native-skia](https://shopify.github.io/react-native-skia) for hardware-accelerated 2D graphics
+- [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/) for fluid animations
+
+## Quick Start
+
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. Start the project:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## How It Works
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The animation uses a combination of:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Scroll-based interpolation for dynamic height adjustments
+- Blur effects and color matrix transformations for visual appeal
+- Dynamic positioning and scaling of avatar images
+- Smooth transitions between states using Reanimated
 
-## Get a fresh project
+## License
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+MIT
